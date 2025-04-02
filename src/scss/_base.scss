@@ -9,7 +9,6 @@
   background-color: rgba(86, 61, 124, 0.15);
   border: 1px solid rgba(86, 61, 124, 0.2);
 }
-
 * {
   box-sizing: border-box;
   margin: 0;
@@ -26,8 +25,16 @@ video {
   display: block;
 }
 
+body {
+  padding-top: 50px;
+}
 .header {
-  position: relatives;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: #f6f4e7;
 }
 
 .ACCUEIL-right {
@@ -35,15 +42,6 @@ video {
   align-items: right;
   justify-content: right;
   margin-left: 190px;
-}
-
-.COUVERTURES {
-  position: relative;
-}
-.couverture-link {
-  position: absolute;
-  top: 35px;
-  left: 42px;
 }
 
 .text {
