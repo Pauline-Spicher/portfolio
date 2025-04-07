@@ -1,6 +1,11 @@
 .header-contact {
   background-color: #fd713c;
   height: 201px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  right: 0;
   .background-contact {
     background-color: #f6f4e7;
     height: 100px;
@@ -28,13 +33,13 @@
 }
 
 .line-contact {
-  margin-top: 266px;
+  margin-top: 290px;
   height: 7px;
   background: #fd713c;
 }
 
 .background-contact {
-  height: 934px;
+  height: 880px;
   background: #f6f4e7;
 }
 
@@ -43,6 +48,6 @@
   margin-bottom: -200px;
   margin-top: -1;
   width: 2px;
-  height: 190px;
+  height: 170px;
   background: #000;
 }
