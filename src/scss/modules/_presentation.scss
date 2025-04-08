@@ -20,16 +20,28 @@
   font-weight: 300;
 }
 
-@media (width <= 600px) {
+@media (max-width: 767px) {
   .presentation-font {
-    color: red;
+    background-color: aqua;
+    font-family: Inter;
+    font-size: 10px;
+    font-weight: 300;
+  }
+  .header {
+    font-size: 6px;
+  }
+}
+
+@media (max-width: 768px) {
+  .presentation-font {
+    background-color: aqua;
     font-family: Inter;
     font-size: 10px;
     font-weight: 300;
   }
 }
 
-@media (width <= 1000px) {
+@media (max-width: 1000px) {
   .presentation-font {
     color: #000;
     font-family: Inter;
