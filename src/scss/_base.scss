@@ -6,10 +6,9 @@
 .row > [class^="col-"] {
   padding-top: 12px;
   padding-bottom: 12px;
-  /*
+
   background-color: rgba(86, 61, 124, 0.15);
   border: 1px solid rgba(86, 61, 124, 0.2);
-  */
 }
 
 * {
@@ -69,20 +68,22 @@ body {
     font-weight: 400;
   }
 
+  .header {
+    background-color: #f6f4e7;
+    height: 50px;
+    white-space: 80px;
+  }
+
   h4 {
     color: #000;
     text-align: left;
     font-family: Inter;
-    font-size: 10px;
-    font-style: normal;
+    font-size: 16px;
     font-weight: 500;
+  }
 
-    /* .ACCUEIL-right {
-      text-align: right;
-      align-items: right;
-      justify-content: right;
-      margin-left: -40px;
-    }*/
+  .ACCUEIL-right {
+    margin-left: 110px;
   }
 }
 
@@ -101,6 +102,10 @@ body {
     font-style: normal;
     font-weight: 500;
   }
+
+  .ACCUEIL-right {
+    margin-left: 210px;
+  }
 }
 
 @media (width >= 992px) {
@@ -117,6 +122,10 @@ body {
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
+  }
+
+  .ACCUEIL-right {
+    margin-left: 145px;
   }
 }
 

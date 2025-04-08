@@ -19,3 +19,25 @@
   font-size: 20px;
   font-weight: 300;
 }
+
+@media (width <= 600px) {
+  .presentation-font {
+    color: red;
+    font-family: Inter;
+    font-size: 10px;
+    font-weight: 300;
+  }
+}
+
+@media (width <= 1000px) {
+  .presentation-font {
+    color: #000;
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 300;
+  }
+}
+
+/* ATTENTION, IL FAUT ABSOLUMENT REVOIR 
+POUR METTRE LE TEXTE CORRECTEMENT 
+ET RESPONSIVE */
