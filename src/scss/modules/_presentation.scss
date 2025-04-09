@@ -20,7 +20,7 @@
   font-weight: 300;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 667px) {
   .presentation-font {
     background-color: aqua;
     font-family: Inter;
@@ -33,11 +33,36 @@
 }
 
 @media (max-width: 768px) {
+  h4 {
+    font-size: 12px;
+  }
+  .title-presentation {
+    margin-top: 25px;
+    margin-bottom: -25px;
+    font-size: 100px;
+  }
   .presentation-font {
-    background-color: aqua;
+    background-color: rgb(214, 93, 214);
     font-family: Inter;
     font-size: 10px;
     font-weight: 300;
+  }
+  h2 {
+    font-size: 30px;
+  }
+
+  .header-presentation-01 {
+    height: 11s0px;
+    background: #f6f4e7;
+  }
+  .header-presentation-02 {
+    height: 150px;
+    background: #fd713c;
+    margin-bottom: 40px;
+  }
+
+  .marge-47px {
+    margin-top: 47px;
   }
 }
 
