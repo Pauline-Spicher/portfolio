@@ -1,15 +1,11 @@
+/* HEADER */
+
 .font-header {
   background: #f6f4e7;
   height: 216px;
 }
 
-.photo-title {
-  margin-top: 114px;
-}
-
-.marge-détail {
-  height: 44px;
-}
+/* COUVERTURES*/
 
 .COUVERTURES {
   position: relative;
@@ -18,4 +14,10 @@
   position: absolute;
   top: 35px;
   left: 42px;
+}
+
+/* MARGE */
+
+.marge-détail {
+  height: 44px;
 }

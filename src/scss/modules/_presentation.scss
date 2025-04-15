@@ -1,24 +1,17 @@
-.header-presentation-01 {
+/* BACKGROUND */
+
+.header-2 {
+  height: 200px;
+  background: #fd713c;
+  margin-bottom: 180px;
+}
+
+.header-1 {
   height: 150px;
   background: #f6f4e7;
 }
 
-.title-presentation {
-  margin-top: 46px;
-  margin-bottom: -25px;
-}
-.header-presentation-02 {
-  height: 200px;
-  background: #fd713c;
-  margin-bottom: 86px;
-}
-
-.presentation-font {
-  color: #000;
-  font-family: Inter;
-  font-size: 20px;
-  font-weight: 300;
-}
+/* HEADER */
 
 .header {
   background-color: #f6f4e7;
@@ -33,9 +26,25 @@
   font-weight: 500;
 }
 
+/* TITLE */
+
+.title-presentation {
+  margin-top: 46px;
+  margin-bottom: -25px;
+}
+.presentation-font {
+  color: #000;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 300;
+}
+
 .line {
   margin-top: 47px;
 }
+
+/* MEDIAQUERIES*/
+
 @media (max-width: 567px) {
   .presentation-font {
     background-color: aqua;
