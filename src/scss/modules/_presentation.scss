@@ -1,14 +1,14 @@
 .header-presentation-01 {
-  height: 128px;
+  height: 150px;
   background: #f6f4e7;
 }
 
 .title-presentation {
-  margin-top: 25px;
+  margin-top: 46px;
   margin-bottom: -25px;
 }
 .header-presentation-02 {
-  height: 201px;
+  height: 200px;
   background: #fd713c;
   margin-bottom: 86px;
 }
@@ -20,15 +20,28 @@
   font-weight: 300;
 }
 
-@media (max-width: 667px) {
+.header {
+  background-color: #f6f4e7;
+  height: 50px;
+  white-space: 80px;
+  flex: 50px;
+
+  color: #000;
+  text-align: left;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.line {
+  margin-top: 47px;
+}
+@media (max-width: 567px) {
   .presentation-font {
     background-color: aqua;
     font-family: Inter;
     font-size: 10px;
     font-weight: 300;
-  }
-  .header {
-    font-size: 6px;
   }
 }
 
@@ -52,7 +65,7 @@
   }
 
   .header-presentation-01 {
-    height: 11s0px;
+    height: 110px;
     background: #f6f4e7;
   }
   .header-presentation-02 {
@@ -62,6 +75,9 @@
   }
 
   .marge-47px {
+    margin-top: 47px;
+  }
+  .line {
     margin-top: 47px;
   }
 }
