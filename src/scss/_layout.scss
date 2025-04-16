@@ -1,53 +1,112 @@
-footer {
-  background-color: aqua;
+.text {
+  margin-top: 44px;
+  margin-bottom: 44px;
 }
 
-/* INDEX / ACCUEIL */
-
-.line {
-  margin-top: 27px;
-  margin-bottom: 47px;
-  height: 7px;
-  background: #f6f4e7;
+.marge {
+  margin-top: 180px;
 }
 
-/* PHOTOGRAPHIE*/
-
-.header-photo-01 {
-  height: 216px;
-  background: #f6f4e7;
+.marge-47px {
+  height: 47px;
 }
-.header-photo-02 {
-  height: 209px;
+
+.header-2 {
+  height: 200px;
   background: #fd713c;
-  margin-bottom: 52px;
+  margin-bottom: 180px;
 }
 
-.couverture-photo-01 {
-  margin-top: 52px;
-  margin-bottom: 47px;
-}
-.couverture-photo-02 {
-  margin-bottom: 47px;
-}
-.couverture-photo-03 {
-  margin-bottom: 47px;
-}
-.couverture-photo-04 {
-  margin-bottom: 47px;
-}
-/* ----- */
-
-.header-designUI-01 {
+.header-1 {
+  height: 150px;
   background: #f6f4e7;
-  height: 215px;
-}
-.header-designUI {
-  height: 210px;
-  background: #fd713c;
-  margin-bottom: 286px;
 }
 
-.photo-title {
-  margin-top: 85px;
+/* ------------------- MEDIAQUERIES ------------------- */
+
+@media (width <=977px) {
+  p {
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 400;
+  }
+
+  .header {
+    background-color: #f6f4e7;
+    height: 50px;
+    white-space: 80px;
+  }
+
+  h4 {
+    color: #000;
+    text-align: left;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+  }
+
+  .ACCUEIL-right {
+    margin-left: 90px;
+  }
+}
+
+@media (width >= 900px) {
+  p {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+  }
+
+  h4 {
+    color: #000;
+    text-align: left;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+  }
+
+  .ACCUEIL-right {
+    margin-left: 100px;
+  }
+}
+
+img,
+video {
+  display: block;
+}
+
+.news-title {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: Inter;
+  font-size: 10px;
+  font-weight: 700;
+}
+
+@media (width >= 1000px) {
+  p {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+  }
+
+  h4 {
+    color: #000;
+    text-align: left;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+  }
+
+  .ACCUEIL-right {
+    margin-left: 185px;
+  }
+}
+
+@media (width >= 1200px) {
+  .ACCUEIL-right {
+    margin-left: 200px;
+  }
 }
